@@ -4,12 +4,12 @@
 		<p>p2</p>
 	<script src="js/newquery.js" type="text/javascript"></script>
 	<script type="text/javascript">
-// 		function foo(){}
-// 		foo.prototype.extend=function(a){
-// 			console.log(a)
-// 		}
-// 		foo.extend("a")
-//css以及运动函数
+		function foo(){}
+		foo.prototype.extend=function(a){
+ 			console.log(a)
+ 		}
+		foo.extend("a")
+css以及运动函数
 		$("div").css("width:100px;height:100px;background:red;position:absolute").animate({"left":500},20,function(){
 					this.animate({"color":"yellow"})
 					console.log(this)
