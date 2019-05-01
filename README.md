@@ -1,5 +1,6 @@
-演示html		
-		'<div>div</div>
+#演示html		
+```
+		<div>div</div>
 		<p>p1</p>
 		<p>p2</p>
 	<script src="js/newquery.js" type="text/javascript"></script>
@@ -9,7 +10,7 @@
  			console.log(a)
  		}
 		foo.extend("a")
-css以及运动函数
+//css以及运动函数
 		$("div").css("width:100px;height:100px;background:red;position:absolute").animate({"left":500},20,function(){
 					this.animate({"color":"yellow"})
 					console.log(this)
@@ -35,5 +36,6 @@ css以及运动函数
 			attr:[{class:"hello",nihao:"hy"},{href:"index.html"}],
 			data:["hello","world"]
 		})
-	</script>'
+	</script>
+```
 
