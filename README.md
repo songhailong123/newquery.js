@@ -9,7 +9,8 @@
 - 为newquery原型添加对象/方法，$.fn.extend(name,obj);
 #animate
 
-- 动画函数，animate(json,time,fn);例如	```
+- 动画函数，animate(json,time,fn);例如
+```
 $("div").css("width:100px;height:100px;background:red;position:absolute").animate({"left":500},20,function(){
 	this.animate({"color":"yellow"})
 })
