@@ -18,7 +18,7 @@ $("div").css("width:100px;height:100px;background:red;position:absolute").animat
 注意：写入回调函数时，需要传入this.animate才可以，json为目标值，time为执行时间，默认为1s，fn为回调函数
 # appendDom
 
-- 添加一个节点
+- 添加一个节点,参数{type:"",attr={key1:"value"},data}data为字符串可选
 示例：		
 ```
 $("p").appendDom({
@@ -32,7 +32,7 @@ $("p").appendDom({
 ```
 # appendSameList
 
-- 添加一个相同节点的列表
+- 添加一个相同节点的列表,参数值num,obj={type,attr:{key:"value"},data可选
 示例：
 ```
 		$("p").appendSameList(5,{
@@ -46,7 +46,7 @@ $("p").appendDom({
 ```
 # appendDiffList
 
-- 添加不同节点类型的列表（但也可以相同）
+- 添加不同节点类型的列表（但也可以相同），参数{type:[],attr:[{key:"value"}],data:[]}
 示例:
 ```
 $("p").appendDiffList({
