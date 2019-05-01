@@ -1,5 +1,5 @@
 演示html
-		
+'		
 		<div>div</div>
 		<p>p1</p>
 		<p>p2</p>
@@ -37,3 +37,4 @@
 			data:["hello","world"]
 		})
 	</script>
+'
