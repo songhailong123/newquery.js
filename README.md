@@ -1,18 +1,5 @@
 演示html
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<style>
-			*{
-				margin: 0;
-				padding: 0;
-			}
-		</style>
-
-	</head>
-	<body>
+		
 		<div>div</div>
 		<p>p1</p>
 		<p>p2</p>
@@ -49,6 +36,3 @@
 			data:["hello","world"]
 		})
 	</script>
-	</body>
-	
-</html>
