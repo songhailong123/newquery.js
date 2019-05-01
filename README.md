@@ -1,6 +1,5 @@
-演示html
-'		
-		<div>div</div>
+演示html		
+		'<div>div</div>
 		<p>p1</p>
 		<p>p2</p>
 	<script src="js/newquery.js" type="text/javascript"></script>
@@ -36,5 +35,5 @@
 			attr:[{class:"hello",nihao:"hy"},{href:"index.html"}],
 			data:["hello","world"]
 		})
-	</script>
-'
+	</script>'
+
