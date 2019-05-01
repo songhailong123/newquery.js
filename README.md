@@ -1,13 +1,13 @@
-##无new引用
+ #  无new引用
 
 - $(selector),支持css3属性以及各种选择器，例如$("div")
-##css方法
+# css方法
 
 - $(obj).css(str);str="width:100px;height:100px;background:red"
-##extend
+# extend
 
 - 为newquery原型添加对象/方法，$.fn.extend(name,obj);
-##animate
+# animate
 
 - 动画函数，animate(json,time,fn);例如
 ```
@@ -16,7 +16,7 @@ $("div").css("width:100px;height:100px;background:red;position:absolute").animat
 })
 ```
 注意：写入回调函数时，需要传入this.animate才可以，json为目标值，time为执行时间，默认为1s，fn为回调函数
-##appendDom
+# appendDom
 
 - 添加一个节点
 示例：		
@@ -30,7 +30,7 @@ $("p").appendDom({
 	data:"helloworld"
 });
 ```
-##appendSameList
+# appendSameList
 
 - 添加一个相同节点的列表
 示例：
@@ -44,7 +44,7 @@ $("p").appendDom({
 			data:"helloworld"
 		})
 ```
-##appendDiffList
+# appendDiffList
 
 - 添加不同节点类型的列表（但也可以相同）
 示例:
