@@ -64,7 +64,7 @@
 						step = step > 0 ? Math.ceil(step) : Math.floor(step); //step大于0向上取整反之向下,实现变速效果
 						current += step; //移动后的值
 						element.style[attr] = current / 100;
-					} else if (attr == "zIndex" || attr == "color" || attr == "background") {
+					} else if (attr == "zIndex" || attr == "color" || attr == "background"||attr=="fontSize") {
 						element.style[attr] = json[attr];
 					} else { //其他普通属性
 						var current = parseInt(this.getStyle(element, attr));
@@ -151,8 +151,10 @@
 			for(let i=0;i<typelen;i++){
 				Object.keys(attr[i]).map(function(item){
 					nodearray[i].setAttribute(item,attr[i][item]);
-					if (obj.hasOwnProperty("data")) {
+					if (obj.hasOwnProperty("data")&&obj.data[i]) {
 						nodearray[i].innerHTML = obj.data[i];
+					}else{
+						nodearray[i].innerHTML = "";
 					}
 				})
 				fragment.appendChild(nodearray[i]);
